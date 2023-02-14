@@ -1,4 +1,5 @@
 "Instruction
+"Run vim-linux-install.sh or do fallowing steps
 "1. install vim
 "2. install git
 "3. install curl
