@@ -1,10 +1,3 @@
-"Instruction
-"Run vim-linux-install.sh or do fallowing steps
-"1. install vim
-"2. install git
-"3. install curl
-"4. copy this file as ~/.vimrc
-"5. run vim and enjoy 
 
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
