@@ -1,4 +1,4 @@
-//Create file ~/.vimrc
+"Create file ~/.vimrc
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
