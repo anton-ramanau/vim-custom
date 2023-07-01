@@ -29,7 +29,8 @@ Plug 'chiel92/vim-autoformat'
 Plug 'tpope/vim-sensible'
 
 " plugin for theme variant
-Plug 'morhetz/gruvbox'
+Plug 'sainnhe/everforest'
+
 
 "plugin for reading files with extention .log
 Plug 'mtdl9/vim-log-highlighting'
@@ -39,8 +40,7 @@ call plug#end()
 
 autocmd VimEnter * NERDTree
 
-set background=dark
-colorscheme gruvbox
+colorscheme everforest
 
 "spacing
 set tabstop=4
