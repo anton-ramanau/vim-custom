@@ -1,6 +1,13 @@
 #!/bin/sh
+
 apt-get update
-apt-get -y install curl
-apt-get -y install git
-apt-get -y install vim
-curl https://raw.githubusercontent.com/anton-ramanau/vim-custom/main/.vimrc > ~/.vimrc
+
+if ! command -v curl >/dev/null 2>&1; then
+    apt-get -y install curl
+fi
+
+if ! command -v vim >/dev/null 2>&1; then
+    apt-get -y install vim
+fi
+
+curl -f -o ~/.vimrc https://raw.githubusercontent.com/anton-ramanau/vim-custom/main/.vimrc
