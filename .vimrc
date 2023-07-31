@@ -43,8 +43,8 @@ autocmd VimEnter * NERDTree
 colorscheme everforest
 
 "spacing
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 
 syntax on
 set showmatch
